@@ -1,0 +1,35 @@
+<!-- contact.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Our Services</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Welcome to My Web Application</h1>
+    <h2>Contact Us</h2>
+    <p>Got a question or feedback? We'd love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent consequat, sapien vel sagittis vulputate, nulla felis dictum tellus, at semper nulla dolor vel nibh.</p>
+    <form action="/contact" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer>&copy; 2023 My Web Application</footer>
+</body>
+</html>
